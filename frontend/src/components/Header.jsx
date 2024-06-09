@@ -39,9 +39,7 @@ const Header = () => {
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          
-          <Navbar.Text className="mx-auto" style={{color: '#fff', fontFamily: 'Cursive', fontSize: '24px', fontWeight: 'bold'}}>Welcome to Pakai Shop!</Navbar.Text>
-          <Navbar.Collapse id='basic-navbar-nav'>
+                    <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <SearchBox />
               <Nav.Link as={Link} to='/cart'>

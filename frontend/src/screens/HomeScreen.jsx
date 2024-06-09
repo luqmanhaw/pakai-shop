@@ -38,6 +38,19 @@ const HomeScreen = () => {
 
   return (
     <>
+      <div className='hero bg-base-200 bg-blend-overlay'>
+        <div className='hero-content text-center'>
+          <div className='max-w-xl'>
+            <h1 className='text-6xl font-bold max-md:text-4xl text-accent-content'>
+              Welcome to Pakai Shop, The Best Clothing Shop Of The Year!
+            </h1>
+            <p className='py-6 text-2xl max-md:text-lg text-accent-content'>
+            Here, you'll find a wide variety of stylish and high-quality apparel to suit any occasion. From trendy casual wear to elegant formal attire, Pakai Shop offers exceptional options for every wardrobe. Enjoy our latest collections, exclusive designs, and unbeatable customer service. Visit us today and experience why we are the top choice for fashion enthusiasts everywhere!
+            </p>
+          </div>
+        </div>
+      </div>
+
       {!keyword ? (
         <ProductCarousel />
       ) : (
