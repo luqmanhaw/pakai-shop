@@ -1,6 +1,6 @@
 # Pakai eCommerce Platform
 
-> an eCommerce platform.
+> an eCommerce platform. This is for FS24 C3 final hackathon. Contributors: Ahmad Syafiq, Rafiq and Luqman
 
 <img src="./frontend/public/images/homepage.png">
 <img src="./frontend/public/images/product.png">
