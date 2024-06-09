@@ -1,8 +1,8 @@
 {
-  "name": "proshop2",
+  "name": "pakaishop",
   "version": "2.0.0",
   "type": "module",
-  "description": "Ecommerce application built with the MERN stack",
+  "description": "Ecommerce application",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
