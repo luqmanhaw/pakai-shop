@@ -54,6 +54,18 @@ const HomeScreen = () => {
       ) : (
         <>
           <Meta />
+          <h1>Trending Products</h1>
+          <Row>
+            {[...data.products]
+              .sort(() => Math.random() - 0.5)
+              .slice(0, 5)
+              .map((product) => (
+                <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+                  <Product product={product} />
+                </Col>
+              ))}
+          </Row>
+
           <h1>Shop By Categories</h1>
           <Row>
             {subCategory.map((product) => (
@@ -62,7 +74,7 @@ const HomeScreen = () => {
               </Col>
             ))}
           </Row>
-          
+
           <h1>Latest Products</h1>
           <Row>
             {data.products.map((product) => (
@@ -76,8 +88,6 @@ const HomeScreen = () => {
             page={data.page}
             keyword={keyword ? keyword : ''}
           />
-          
-          
         </>
       )}
     </>

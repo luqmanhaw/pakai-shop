@@ -12,8 +12,8 @@ const Meta = ({ title, description, keywords }) => {
 
 Meta.defaultProps = {
   title: 'Welcome To Pakai!',
-  description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  description: 'We sell the best products for cheap prices!',
+  keywords: 'clothing, buy clothing, cheap clothing, fashion, men clothing, women clothing, kids clothing, shoes, bags, pakai clothing, pakai fashion, pakai shoes, pakai bags, pakai accessories, pakai kids clothing',
 };
 
 export default Meta;
